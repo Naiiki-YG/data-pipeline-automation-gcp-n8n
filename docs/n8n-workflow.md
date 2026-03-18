@@ -53,7 +53,9 @@ Se implementó un workflow automatizado utilizando n8n para procesar datos prove
 - JavaScript
 - Gemini AI
   
-🔍 IMG
+🔍 IMG DE PRUEBA
+
+
 <img width="475" height="223" alt="1" src="https://github.com/user-attachments/assets/5d630654-b4fc-490b-abd0-e009e87cbf84" />
 <img width="498" height="282" alt="2" src="https://github.com/user-attachments/assets/63ea803a-805a-4469-b51a-6ae19dbf286c" />
 <img width="487" height="171" alt="3" src="https://github.com/user-attachments/assets/ec738734-d571-495b-884f-4b41ace2bafe" />
