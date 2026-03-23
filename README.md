@@ -59,6 +59,12 @@ Se utilizaron modelos Gemini (Pro y Flash) para:
 
 - 📄 Infraestructura: docs/setup-gcp-vm.md  
 - 🔄 Workflow: docs/n8n-workflow.md
+- 📄 Pipeline : docs/pipeline.md
+
+  
+## 🎥Demo
+Video demostrativo del flujo:
+https://drive.google.com/file/d/1Cm47ZJTv4q4nxU6UsI4aDbZLI0SDhd1P/view?usp=sharing
 
 ## 🔐 Nota
 Por razones de confidencialidad, algunos detalles específicos han sido omitidos.
