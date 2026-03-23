@@ -1,9 +1,11 @@
 Workflow de Automatización con n8n
 
-Descripción General
+Descripción General:
+
 Se implementó un workflow automatizado utilizando n8n para procesar datos provenientes de correos electrónicos, transformarlos mediante lógica personalizada y almacenarlos en una arquitectura de datos en la nube.
 
 ⚙️Flujo del Proceso
+
 1.Gmail Trigger (API)
 - Captura automática de correos entrantes
 - Filtrado según criterios definidos
@@ -19,7 +21,7 @@ Se implementó un workflow automatizado utilizando n8n para procesar datos prove
 
 4.Envío a Cloud Storage
 - Datos crudos enviados mediante HTTP
-- Almacenamiento como respaldo (raw layer)
+- Almacenamiento como respaldo 
 
 5. Transformación y Carga a BigQuery
 - Uso de nodo Execute SQL
