@@ -54,6 +54,10 @@ Se utilizaron modelos Gemini (Pro y Flash) para:
 - JavaScript
 - Gemini AI
 - Looker Studio / Power BI
+  
+## 🧩 Diagrama del Pipeline
+
+<img width="1024" height="768" alt="pipeline" src="https://github.com/user-attachments/assets/bf531d5f-0e79-4501-ac81-3b3bb292f55f" />
 
 ## Documentación 
 
