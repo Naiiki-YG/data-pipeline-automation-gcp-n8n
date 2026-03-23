@@ -1,5 +1,64 @@
-# Data Pipeline Automation with GCP + n8n + AI
+# Pipeline de Datos automatizado con GCP + N8N + IA
 
-Este proyecto demuestra una canalización de datos automatizada construida con Google Cloud Platform, n8n, BigQuery y modelos de IA.
+## Descripción General
 
-## Documentación - Infraestructura: docs/setup-gcp-vm.md
+Este proyecto implementa un pipeline de datos end-to-end automatizado, diseñado para capturar, procesar, analizar y visualizar información operativa utilixando infraestructura en la nube e inteligencia artificial.
+
+El sistema permite procesar datos provenientes de correos electrónicos, transformarlos mediante workflows automatizados y enriquecerlos con modelos de IA para su posterior análisis.
+
+## Arquitectura
+
+Gmail → n8n → Cloud Storage → BigQuery → Dashboard  
+          ↓  
+          IA (Gemini)
+
+## Flujo del proceso
+
+1. **Ingesta de Datos**
+   - Captura automática de correos mediante Gmail Trigger en n8n
+
+2. **Procesamiento**
+   - Limpieza y estructuración de datos utilizando nodos JavaScript
+
+3. **Almacenamiento (Capa Raw)**
+   - Datos crudos almacenados en Google Cloud Storage
+
+4. **Transformación**
+   - Procesamiento de datos mediante SQL y carga en BigQuery
+
+5. **Integración con IA**
+   - Uso de modelos Gemini para analizar datos no estructurados
+
+6. **Visualización**
+   - Creación de dashboards en Looker Studio / Power BI
+  
+## Uso de Inteligencia Artificial
+Se utilizaron modelos Gemini (Pro y Flash) para:
+
+- Analizar datos no estructurados
+- Extraer información relevante
+- Generar datos estructurados para análisis
+
+## Resultados
+
+- Automatización completa del flujo de datos
+- Reducción del procesamiento manual
+- Disponibilidad de información para análisis en tiempo real
+- Arquitectura escalable en la nube
+
+## Tecnologías Utilizadas
+
+- Google Cloud Platform (Compute Engine, BigQuery, Cloud Storage)
+- n8n (automatización de workflows)
+- Docker
+- JavaScript
+- Gemini AI
+- Looker Studio / Power BI
+
+## Documentación 
+
+- 📄 Infraestructura: docs/setup-gcp-vm.md  
+- 🔄 Workflow: docs/n8n-workflow.md
+
+## 🔐 Nota
+Por razones de confidencialidad, algunos detalles específicos han sido omitidos.
