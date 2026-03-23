@@ -64,7 +64,7 @@ Se utilizan 3 modelos especializados:
 #### 3.9 Carga a BigQuery
 - Inserción mediante Execute SQL
 
-  ## 🗄️ 4. Almacenamiento
+## 🗄️ 4. Almacenamiento
 
 - **Cloud Storage:** Datos crudos (PDFs)
 - **BigQuery:** Datos estructurados
