@@ -9,8 +9,8 @@ El sistema permite procesar datos provenientes de correos electrónicos, transfo
 ## Arquitectura
 
 Gmail → n8n → Cloud Storage → BigQuery → Dashboard  
-          ↓  
-          IA (Gemini)
+         ↓  
+         IA (Gemini)
 
 ## Flujo del proceso
 
