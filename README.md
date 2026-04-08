@@ -2,7 +2,7 @@
 
 ## Descripción General
 
-Este proyecto implementa un pipeline de datos end-to-end automatizado, diseñado para capturar, procesar, analizar y visualizar información operativa utilixando infraestructura en la nube e inteligencia artificial.
+Este proyecto implementa un pipeline de datos end-to-end automatizado, diseñado para capturar, procesar, analizar y visualizar información operativa utilizando infraestructura en la nube e inteligencia artificial.
 
 El sistema permite procesar datos provenientes de correos electrónicos, transformarlos mediante workflows automatizados y enriquecerlos con modelos de IA para su posterior análisis.
 
